@@ -11,6 +11,7 @@
     "start": "astro build --silent && astro preview",
     "build": "astro build",
     "preview": "astro preview",
+    "format": "prettier -w .",
     "lint:eslint": "eslint . --ext .js,.ts,.astro"
   },
   "devDependencies": {
@@ -20,6 +21,8 @@
     "astro": "^1.0.0-beta.63",
     "eslint": "^8.20.0",
     "eslint-plugin-astro": "^0.15.0",
+    "prettier": "^2.7.1",
+    "prettier-plugin-astro": "^0.1.2",
     "sass": "^1.53.0",
     "the-new-css-reset": "^1.7.2"
   },
