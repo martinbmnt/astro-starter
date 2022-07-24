@@ -1,0 +1,22 @@
+{
+  "author": {
+    "name": "Martin Beaumont",
+    "email": "hello@martinbeaumont.dev",
+    "url": "https://martinbeaumont.dev"
+  },
+  "name": "@martinbmnt/astro-starter",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro build --silent && astro preview",
+    "build": "astro build",
+    "preview": "astro preview",
+  },
+  "devDependencies": {
+    "@astrojs/sitemap": "^0.2.6",
+    "astro": "^1.0.0-beta.63",
+    "sass": "^1.53.0",
+    "the-new-css-reset": "^1.7.2"
+  },
+  "dependencies": {}
+}
