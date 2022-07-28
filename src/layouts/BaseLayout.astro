@@ -1,0 +1,21 @@
+---
+import HeadCommon from '../components/Head/HeadCommon.astro';
+
+import { SITE } from '../config';
+
+export interface Props {
+  title: string;
+  description: string;
+}
+---
+
+<html dir="ltr" lang={SITE.language.slice(0, 2)}>
+  <head>
+    <title>{Astro.props.title}</title>
+    <HeadCommon />
+  </head>
+
+  <body>
+    <slot />
+  </body>
+</html>
