@@ -5,6 +5,7 @@ import HeadCommon from '../components/Head/HeadCommon.astro';
 import HeadFont from '../components/Head/HeadFont.astro';
 
 import { SITE } from '../config';
+import Footer from '../components/Footer/Footer.astro';
 
 export interface Props {
   title: string;
@@ -21,5 +22,6 @@ export interface Props {
 
   <body>
     <slot />
+    <Footer />
   </body>
 </html>
