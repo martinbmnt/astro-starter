@@ -5,6 +5,7 @@ import HeadCommon from '../components/Head/HeadCommon.astro';
 import HeadFont from '../components/Head/HeadFont.astro';
 
 import { SITE } from '../config';
+import Footer from '../components/Footer/Footer.astro';
 import Navigation from '../components/Navigation/Navigation.astro';
 
 export interface Props {
@@ -23,5 +24,6 @@ export interface Props {
   <body>
     <Navigation/>
     <slot />
+    <Footer />
   </body>
 </html>
