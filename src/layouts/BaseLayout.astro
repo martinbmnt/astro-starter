@@ -1,0 +1,18 @@
+---
+
+import { SITE } from '../config';
+
+export interface Props {
+  title: string;
+  description: string;
+}
+---
+
+<html dir="ltr" lang={SITE.language}>
+  <head>
+  </head>
+
+  <body>
+    <slot />
+  </body>
+</html>
