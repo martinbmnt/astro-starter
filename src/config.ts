@@ -5,3 +5,8 @@ export const SITE = {
   color: '#E4DCCF',
 };
 
+export const NAVIGATION = [
+  { name: 'Accueil', link: '' },
+  { name: 'Présentation', link: 'presentation' },
+  { name: 'Contact', link: 'contact' },
+];

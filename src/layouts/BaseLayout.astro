@@ -6,6 +6,8 @@ import HeadFont from '../components/Head/HeadFont.astro';
 
 import { SITE } from '../config';
 import Header from '../components/Header/Header.astro';
+import Navigation from '../components/Navigation/Navigation.astro';
+import Footer from '../components/Footer/Footer.astro';
 
 export interface Props {
   title: string;
@@ -22,6 +24,8 @@ export interface Props {
 
   <body>
     <Header />
+    <Navigation/>
     <slot />
+    <Footer />
   </body>
 </html>
