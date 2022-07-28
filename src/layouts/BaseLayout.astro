@@ -2,6 +2,7 @@
 import './../styles/global.scss';
 
 import HeadCommon from '../components/Head/HeadCommon.astro';
+import HeadFont from '../components/Head/HeadFont.astro';
 
 import { SITE } from '../config';
 
@@ -15,6 +16,7 @@ export interface Props {
   <head>
     <title>{Astro.props.title}</title>
     <HeadCommon />
+    <HeadFont />
   </head>
 
   <body>
