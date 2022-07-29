@@ -1,6 +1,9 @@
 main,
 aside {
   overflow: hidden;
+  width: 100%;
+  max-width: var(--content-max-width);
+  margin: 0 auto;
 
   a {
     text-decoration: underline;
