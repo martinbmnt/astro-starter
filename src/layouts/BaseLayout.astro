@@ -3,6 +3,7 @@ import './../styles/global.scss';
 
 import HeadCommon from '../components/Head/HeadCommon.astro';
 import HeadFont from '../components/Head/HeadFont.astro';
+import HeadSEO from '../components/Head/HeadSEO.astro';
 
 import { SITE } from '../config';
 import Header from '../components/Header/Header.astro';
@@ -17,14 +18,14 @@ export interface Props {
 
 <html dir="ltr" lang={SITE.language.slice(0, 2)}>
   <head>
-    <title>{Astro.props.title}</title>
     <HeadCommon />
     <HeadFont />
+    <HeadSEO content={Astro.props} />
   </head>
 
   <body>
     <Header />
-    <Navigation/>
+    <Navigation />
     <slot />
     <Footer />
   </body>

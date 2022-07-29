@@ -5,6 +5,14 @@ export const SITE = {
   color: '#E4DCCF',
 };
 
+export const OPEN_GRAPH = {
+  image: {
+    src: null,
+    alt: null,
+  },
+  twitter: 'twitterusername',
+};
+
 export const NAVIGATION = [
   { name: 'Accueil', link: '' },
   { name: 'Présentation', link: 'presentation' },
