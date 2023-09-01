@@ -8,8 +8,8 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "start": "astro build --silent && astro preview",
-    "build": "astro build",
+    "start": "yarn build --silent && astro preview",
+    "build": "astro check && tsc --noEmit && astro build",
     "preview": "astro preview",
     "format": "prettier -w .",
     "lint:a11y": "start-test 3000 lint:a11y:local",
